@@ -184,7 +184,7 @@ const Home = () => {
                 {isModalOpen &&modalIndex==11 && (
                 <div  className="join-modal ">
                     <form className="modal-content animate md:p-10 p-5" onSubmit={handleSubmit}>
-                        <div className="text-4xl text-center font-bold pb-[10px]">INVESTION</div>
+                        <div className="text-4xl text-center font-bold pb-[10px]">Seed Round</div>
                         <div className="text-center pb-2">Please enter the amount of ETH  you like to invest below (minimum size is 0.05) and interact with our master contract</div>
                         <hr className=" opacity-30"/>
                         <div className="pt-5 pb-2 text-left">Your Wallet Address</div>
@@ -260,13 +260,13 @@ const Home = () => {
                     
                 </div>
                 
-                <div className="lg:text-8xl md:text-5xl text-5xl p-5 font-bold text-center gradient">Join the Land Revolution</div>
+                <div className="lg:text-[80px] md:text-5xl text-5xl p-5 font-bold text-center gradient">Join the Land Revolution</div>
                  
                 <div className="w-3/4 max-w-[650px] min-w-[350px] pb-[30px] font-bold">    
                     <div className="lg:text-3xl text-xl p-0 text-center text-[#e2e2e2]">Saratoga has launched on Ethereum Network To participate in the Presale rounds, please</div>
 
                 </div>
-                <div onClick={() => {handleOpenModal(); changeModalIndex(11) ; handleHideShow()}}  className="wail-btn text-2xl mt-3 mb-3 py-3 pl-10 pr-5 rounded-xl flex">Invest Now &nbsp;<img className="h-[35px]" src="img/blueberry.png"></img></div>
+                <div onClick={() => {handleOpenModal(); changeModalIndex(11) ; handleHideShow()}}  className="wail-btn lg:text-3xl text-2xl font-bold mt-3 mb-3 lg:py-4 py-3 pl-10 pr-5 rounded-xl flex">Invest Now &nbsp;<img className="lg:h-[40px] h-[35px]" src="img/blueberry.png"></img></div>
                 <div className="text-center pt-[20px] lg:text-xl">
                     <div className="pb-[10px]">0.05 to 0.49 ETH investment:  1 SRT = 0.01 USD,</div>  
                     <div className="pb-[10px]">0.5 - 2.99 ETH: 1 SRT = 0.009 USD</div>
